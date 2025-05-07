@@ -3,6 +3,7 @@
   display: flex; /* Use flexbox to arrange sidebar and content */
   min-height: 100vh; /* Ensure container takes at least full viewport height */
   background-color: #fff; /* Example background */
+  font-family: sans-serif; /* Example font */
 }
 
 /* Styling for the sidebar */
@@ -12,6 +13,7 @@
   padding: 20px;
   box-sizing: border-box; /* Include padding in the width */
   border-right: 1px solid #ccc; /* Optional separator line */
+  flex-shrink: 0; /* Prevent sidebar from shrinking */
 }
 
 /* Styling for the navigation links within the sidebar */
