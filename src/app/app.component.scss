@@ -1,0 +1,45 @@
+/* Basic styling for the overall container */
+.app-container {
+  display: flex; /* Use flexbox to arrange sidebar and content */
+  min-height: 100vh; /* Ensure container takes at least full viewport height */
+  background-color: #fff; /* Example background */
+}
+
+/* Styling for the sidebar */
+.app-sidebar {
+  width: 200px; /* Set a fixed width for the sidebar */
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width */
+  border-right: 1px solid #ccc; /* Optional separator line */
+}
+
+/* Styling for the navigation links within the sidebar */
+.app-sidebar nav ul {
+  list-style: none; /* Remove default list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.app-sidebar nav li {
+  margin-bottom: 10px; /* Space out list items */
+}
+
+.app-sidebar nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link color */
+  font-size: 1.1em;
+  display: block; /* Make the whole area clickable */
+  padding: 5px 0;
+}
+
+.app-sidebar nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Styling for the main content area */
+.app-content {
+  flex-grow: 1; /* Allow content area to take up remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Add scroll if content overflows vertically */
+}

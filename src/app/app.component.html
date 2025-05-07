@@ -1,1 +1,15 @@
-<router-outlet></router-outlet>
+<div class="app-container">
+  <div class="app-sidebar">
+    <nav>
+      <h3>App Navigation</h3>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/about">About</a></li>
+        <li><a routerLink="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="app-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,10 +1,17 @@
 import { Routes } from '@angular/router';
-// import { AppComponent } from './app.component'; // You might not need this import anymore if AppComponent isn't routed
+import { HomeComponent } from './home/home.component';
+import { SettingsComponent } from './settings/settings.component';
 
-import { HomeComponent } from './home/home.component'; // <-- Import the HomeComponent you just created
+// Make sure AboutComponent is imported
+import { AboutComponent } from './about/about.component';
+
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent }, // <-- Change this route to use HomeComponent for the root path
-  // Add other routes here as you create more components (e.g., for /about, /contact, etc.)
-  // Example: { path: 'about', component: AboutComponent },
+  { path: '', component: HomeComponent },
+  { path: 'settings', component: SettingsComponent },
+
+  // Make sure this route for the About page exists
+  { path: 'about', component: AboutComponent },
+
+  // ... potentially other routes
 ];
