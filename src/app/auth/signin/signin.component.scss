@@ -1,6 +1,6 @@
-// You can reuse or adapt the styles from signup.component.scss
-// For simplicity, you could copy the content from signup.component.scss here
-// and make adjustments if needed.
+/* You can reuse or adapt the styles from signup.component.scss */
+/* For simplicity, you could copy the content from signup.component.scss here */
+/* and make adjustments if needed. */
 .auth-container {
   max-width: 400px;
   margin: 40px auto;
@@ -32,7 +32,7 @@
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 4px;
-      box-sizing: border-box; // Include padding in width
+      box-sizing: border-box;
     }
   }
 
@@ -54,7 +54,7 @@
 
   .error-message {
     margin-top: 15px;
-    color: #dc3545; // Red color for errors
+    color: #dc3545;
     font-weight: bold;
   }
 
